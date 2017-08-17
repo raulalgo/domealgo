@@ -3,40 +3,28 @@
 <head>
 	<title>A simple template</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="node_modules/basscss/css/basscss.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/tachyons/css/tachyons.css">
 </head>
-<body class="black">
-	<div class="container px2 sm-px3 flex flex-column" style="max-width:64rem; min-height:100vh">
-		<header class="py2 mt3 border-bottom">
-			<div class="md-flex flex-center">
-				<div class="flex-auto">
-					<h1 class="m0">name-it</h1>
-					<p class="h4">Things look better with a hola mundo</p>
-				</div>
-			</div>
-		</header>
-		<main class="flex-auto p2">
-			<section class="py3 border-bottom">
-				<div class="sm-flex flex-center mxn2">
-					<div class="m2">
-						<p class="h2 bold">In a nutshell</p>
-						<p class="h4">Tell <strike>the world</strike> http://localhost:3000 why your idea is amazing</a>.</p>
-					</div>
-				</div>
-			</section>
-			<section>
-				<div class="flex flex-center">
-					<div class="flex-auto px2 py4 white border center mt3 bg-blue rounded">
-						<p class="m0 h1">Get to work</p>
-						<p class="m0">Do Something Nice</p>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="p2 border-top">
-			<p class="mb0 left h5"><a href="https://github.com/raulalgo/domealgo">domealgo</a>, by <a href="http://raulalgo.es">Ra&uacute;l &Aacute;lvarez Gonz&aacute;lez</a>, 2015</p>
-			<p class="mb0 right h5">Don't forget to visit <a href="https://www.google.co.uk/maps/place/Salamanca,+Espa%C3%B1a/@40.9634372,-5.6867646,14z/data=!3m1!4b1!4m2!3m1!1s0xd3f265dc7dd7c45:0x2f7ae4d00bbfa9aa">Salamanca</a></p>
-		</footer>
-	</div>
+<body class="sans-serif center mw8 bg-light-gray">
+	<header class="bb mt4 pa4">
+		<h1 class="f1 mt0 mb2">name-it</h1>
+		<h2 class="f6 ma0 normal">Things look better with a name</h2>
+	</header>
+	<section class="pa4">
+		<h3 class="">In a nutshell</h3>
+		<p class="">Tell <strike>the world</strike> http://localhost:3000 why your idea is amazing.</p>
+	</section>
+	<section class="tc pa6 bg-blue white br2">
+			<p class="f2 ma0">Get to work</p>
+			<p>Do Somethig Nice</p>
+	</section>
+	<footer class="pv4 ph3 ph5-m ph6-l mid-gray mt5">
+	  <small class="f6 db tc">© 2017 <b class="ttu">RAULALGO</b>, Use this with freedom and for good</small>
+	  <div class="tc mt3">
+	    <a href="http://twitter.com/raulalgo" title="Twitter" class="f6 dib ph2 link mid-gray dim">Twitter</a>
+	    <a href="https://goo.gl/maps/aWoQxt8w4xu"    title="Salamanca" class="f6 dib ph2 link mid-gray dim">Visit Salamanca for happiness</a>
+	  </div>
+	</footer>
+
 </body>
 </html>
