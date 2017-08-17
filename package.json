@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "basscss": "^7.0.4",
     "browser-sync": "^2.10.0",
-    "gulp": "^3.9.0",
-    "gulp-sass": "^2.1.0"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.1.0",
+    "tachyons": "^4.8.1"
   }
 }
