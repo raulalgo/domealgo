@@ -1,0 +1,143 @@
+{
+  "name": "raulalgo/domealgo",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/raulalgo/domealgo",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/gulpsass3",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "domealgo",
+      "subhead": "Basic boilerplate with gulp, sass and browser sync working",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "domealgo: Basic boilerplate with gulp, sass and browser sync working",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "raulalgo",
+          "repo": "domealgo"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n\n<h2>Introduction</h2>\n<p>This is a very simple boilerplate that lets me start prototyping in a structure with working gulp, sass compiling and browserSync.</p>\n<p>##Getting started\nTo get started just run these commands</p>\n<pre>git <span class=\"hljs-built_in\">clone</span> https://github.com/raulalgo/domealgo.git crazyproject\n<span class=\"hljs-built_in\">cd</span> crazyproject\nrm -rf .git\nnpm install\ngulp</pre><p>You are good to go. This will launch a server and a browser window that will automatically refresh every time you save yor .html or .scss files.</p>\n<p>##Use of Basscss\n<a href=\"http://www.basscss.com/\">Basscss</a> is an amazing project for fast HTML layout by Brent Jackson which you should definitely check out. This makes use of <code>basscss.min.css</code> to load all the classes in basscss.</p>\n<p>This is not, however, a good solution for making a custom build of it. If this is your intention you should check out <a href=\"https://github.com/basscss/bassplate\">Bassplate</a> which comes with everything in place and working for making your own basscss themes.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/raulalgo/domealgo",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/raulalgo",
+          "text": "raulalgo"
+        }
+      ]
+    }
+  ]
+}
