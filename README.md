@@ -4,7 +4,7 @@ Basic boilerplate with gulp, sass and browser sync working
 ## Introduction
 This is a very simple boilerplate that lets me start prototyping in a structure with working gulp, sass compiling and browserSync.
 
-##Getting started
+## Getting started
 To get started just run these commands
 
 ``` bash
